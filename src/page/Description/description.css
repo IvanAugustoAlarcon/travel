@@ -1,0 +1,50 @@
+.container__description {
+    padding: 10rem;
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 200;
+}
+
+.img__container {
+    margin-top: 5rem;
+    max-height: 50rem;
+    display:flex ;
+    justify-content: center;
+}
+
+.img__description {
+    width: min(100%, 80rem);
+    height: auto;
+    vertical-align:middle;
+    border: 0;
+    margin-bottom: 3rem;
+
+}
+
+.p__container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.p__description {
+    width: min(100%, 75rem);
+    font-size: 25px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+/*========== BREAKPOINTS ===========*/
+@media screen and (max-width: 996px) {
+    .p__description {
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        font-weight: 50;
+    }
+}

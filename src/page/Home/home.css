@@ -1,0 +1,62 @@
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.img__div {
+    width: 100%;
+    height: 47rem;
+    background-size: cover;
+    background-position: 0%;
+    background-image: url('https://images.pexels.com/photos/2668314/pexels-photo-2668314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.title__text {
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+/*========== BREAKPOINTS ===========*/
+/* For large devices */
+@media screen and (max-width: 1447px) {
+    .img__div {
+        height: 40rem;
+    }
+
+    .title__text {
+        font-size: 2rem;
+        top: 40%;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .home {
+        padding-top: 0;
+    }
+    
+    .img__div {
+        height: 28rem;
+    }
+
+    .title__text {
+        font-size: 1.5rem;
+        top: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .title__text {
+        font-size: 1.5rem;
+        top: 15%;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+
+  }
