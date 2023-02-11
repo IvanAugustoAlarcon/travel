@@ -44,7 +44,7 @@
 /* Active link*/
 .active-link,
 .nav__link:hover {
-    color: var(--grey-text)
+    color: lightgray
 }
 
 /* Active link */
